@@ -1,0 +1,4 @@
+[submodule "react-native"]
+	path = react-native
+	url = https://github.com/facebook/react-native.git
+	branch = gh-pages
