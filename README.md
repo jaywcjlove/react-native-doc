@@ -9,6 +9,14 @@ React Native Doc
 git clone https://github.com/jaywcjlove/react-native-doc.git --depth=1 --recurse-submodules
 ```
 
+参数 `--recurse-submodules` 会克隆太久 `react-native`。
+
+```bash
+git submodule update --depth 1 --init --recursive
+```
+
+参数 `--depth` 只有 [git@2.23.0-rc2](https://github.com/git/git/commit/275cd184d52b5b81cb89e4ec33e540fb2ae61c1f) 支持
+
 ## 安装依赖
 
 ```bash
