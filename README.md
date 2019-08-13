@@ -6,12 +6,16 @@ React Native Doc
 ## 下载工程
 
 ```bash
+# 克隆并下载带有 submodule 的项目
 git clone https://github.com/jaywcjlove/react-native-doc.git --depth=1 --recurse-submodules
 ```
 
 参数 `--recurse-submodules` 会克隆太久 `react-native`。
 
 ```bash
+# 克隆项目
+git clone https://github.com/jaywcjlove/react-native-doc.git --depth=1
+# 更新 submodule 子项目
 git submodule update --depth 1 --init --recursive
 ```
 
