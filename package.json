@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sgo -d react-native/ --fallback index.html"
+    "start": "sgo --fallback index.html",
+    "replace": "node ./script/replace.js"
   },
   "keywords": [],
   "author": "",

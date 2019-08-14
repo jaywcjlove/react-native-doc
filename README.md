@@ -27,6 +27,14 @@ git submodule update --depth 1 --init --recursive
 npm install
 ```
 
+## 替换 CDN 资源
+
+通过下面命令替换 CDN 资源，运行之前确保 `react-native` 目录下载完成。
+
+```bash
+npm run replace
+```
+
 ## 启动服务
 
 ```
