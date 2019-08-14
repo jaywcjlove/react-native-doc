@@ -29,7 +29,7 @@ npm install
 
 ## 替换 CDN 资源
 
-通过下面命令替换 CDN 资源，运行之前确保 `react-native` 目录下载完成。
+通过下面命令批量替换 CDN 资源，运行之前确保 `react-native` 目录下载完成，使用编辑器替换，内容太多会让编辑器卡死。替换内容在这里 [`script/data.js`](script/data.js)
 
 ```bash
 npm run replace
