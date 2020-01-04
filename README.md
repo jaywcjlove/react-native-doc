@@ -15,8 +15,10 @@ git clone https://github.com/jaywcjlove/react-native-doc.git --depth=1 --recurse
 ```bash
 # 克隆项目
 git clone https://github.com/jaywcjlove/react-native-doc.git --depth=1
-# 更新 submodule 子项目
+# 初始化 submodule 子项目
 git submodule update --depth 1 --init --recursive
+# 更新 submodule 子项目
+git submodule update --recursive --remote
 ```
 
 参数 `--depth` 只有 [git@2.23.0-rc2](https://github.com/git/git/commit/275cd184d52b5b81cb89e4ec33e540fb2ae61c1f) 支持
@@ -33,6 +35,18 @@ npm install
 
 ```bash
 npm run replace
+```
+
+更新 React Native 主文档仓库
+
+```bash
+# 进入 React Native 仓库
+cd react-native/
+# 放弃本地修改内容
+git reset --hard
+cd ../
+# 更新 submodule 子项目
+git submodule update --recursive --remote
 ```
 
 ## 启动服务
