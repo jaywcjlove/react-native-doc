@@ -1,7 +1,9 @@
 React Native Doc
 ===
 
-这里是本地离线预览 React Native 文档的方法，解决因官网 CDN 资源导致无法打开官方文档网站。
+这里是本地离线预览 React Native 文档的方法，解决因官网 CDN 资源导致无法打开官方文档网站，已经将处理好的 HTML 存放在 [gh-pages](https://github.com/jaywcjlove/react-native-doc/tree/gh-pages) 分支，只需克隆配合 [sgo](https://github.com/jaywcjlove/sgo) 工具预览即可。
+
+- Docker 部署 [@jaywcjlove/document](https://github.com/jaywcjlove/document)
 
 ## 下载工程
 
