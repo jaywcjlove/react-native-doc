@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sgo --fallback index.html",
-    "replace": "node ./script/replace.js"
+    "server": "sgo --fallback index.html",
+    "start": "node ./script/replace.js"
   },
   "keywords": [],
   "author": "",
