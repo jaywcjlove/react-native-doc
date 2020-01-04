@@ -1,17 +1,19 @@
 {
   "name": "react-native-doc",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Native Doc",
   "main": "index.js",
   "scripts": {
-    "server": "sgo --fallback index.html",
-    "start": "node ./script/replace.js"
+    "server": "sgo -d web --fallback index.html",
+    "start": "node ./script/replace.js",
+    "deploy": "gh-pages -d web"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "fs-extra": "^8.1.0",
+    "gh-pages": "^2.1.1",
     "sgo": "^2.1.4"
   }
 }
