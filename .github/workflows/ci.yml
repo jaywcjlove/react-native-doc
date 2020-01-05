@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Deploy react-native-doc
+name: Build and Deploy react-native-doc
 on:
   push:
     branches:
