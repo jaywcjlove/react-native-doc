@@ -18,7 +18,7 @@ jobs:
         cat .gitmodules
         git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
         git pull --recurse-submodules
-        cd react-native && git checkotu gh-pages
+        cd react-native && git checkout gh-pages
 
     - name: Setup Node
       uses: actions/setup-node@v1
