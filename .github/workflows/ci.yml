@@ -16,7 +16,7 @@ jobs:
         auth_header="$(git config --local --get http.https://github.com/.extraheader)"
         git submodule sync --recursive
         cat .gitmodules
-        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --remote --force --recursive --depth=1 --checkout react-native
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --remote --force --recursive --checkout react-native
 
       # git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive
       # cd react-native && git checkout gh-pages
