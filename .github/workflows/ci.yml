@@ -17,6 +17,7 @@ jobs:
         git submodule sync --recursive
         git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
         cd react-native && git fetch -f origin gh-pages && cd ../
+        git pull --recurse-submodules
         git config submodule.react-native.branch gh-pages && git submodule sync && git submodule update --init --recursive --remote
 
     - name: Setup Node
