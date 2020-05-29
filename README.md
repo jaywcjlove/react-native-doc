@@ -16,7 +16,7 @@ docker pull wcjiang/react-native:latest
 Run Server
 
 ```shell
-docker run --name react-native -p 60001:60001 --restart=always -d wcjiang/react-native:latest
+docker run --name react-native -p 60005:60005 --restart=always -d wcjiang/react-native:latest
 ```
 
 ## 下载工程
