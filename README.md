@@ -1,6 +1,8 @@
 React Native Doc
 ===
 
+![Build and Deploy react-native-doc](https://github.com/jaywcjlove/react-native-doc/workflows/Build%20and%20Deploy%20react-native-doc/badge.svg) ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/react-native?label=@wcjiang/react-native) [![Docker Stars](https://img.shields.io/docker/stars/wcjiang/react-native)](https://hub.docker.com/r/wcjiang/react-native) 
+
 这里是本地离线预览 [React Native](https://github.com/facebook/react-native/) 官方文档的方法，解决因官网 CDN 资源导致无法打开官方文档网站，已经将处理好的 HTML 存放在 [gh-pages](https://github.com/jaywcjlove/react-native-doc/tree/gh-pages) 分支，只需克隆配合 [sgo](https://github.com/jaywcjlove/sgo) 工具预览即可。
 
 - Docker 部署 [@jaywcjlove/document](https://github.com/jaywcjlove/document)
