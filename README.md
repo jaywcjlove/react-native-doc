@@ -7,7 +7,7 @@ React Native Doc
 
 ## Docker 部署
 
-> Port: `60005` - [react-native-doc](https://facebook.github.io/react-native/)
+> Port: `60005` - [react-native-doc](https://facebook.github.io/react-native/) [@jaywcjlove/docs/react-native](https://github.com/jaywcjlove/docs)
 
 ```shell
 docker pull wcjiang/react-native:latest
