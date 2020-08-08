@@ -33,6 +33,7 @@ jobs:
 
     - run: npm install
     - run: npm run start
+    - run: rm -rf ./web/CNAME
 
     - name: Build and Deploy
       uses: peaceiris/actions-gh-pages@v2
